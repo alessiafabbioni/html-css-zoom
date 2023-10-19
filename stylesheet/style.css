@@ -14,25 +14,41 @@ body {
 }
 
 header {
-    min-height: 50vh;
+    min-height: 3vh;
     background-color: transparent;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 
 .header-buttons {
     display: flex;
-    
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    font-size: 8px;
+    background-color: gray;
+    border-radius: 10%;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-right: 5px;
+}
+
+.header-buttons i{
+    padding-right: 5px;
 }
 
 /*main*/
 
 .container {
     width: auto;
-    margin: 100px 60px;
+    margin: 60px 60px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
